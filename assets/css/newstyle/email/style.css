@@ -1,0 +1,20 @@
+@media print{
+	#send_email{
+		display: none;
+	}
+} 
+@media screen{
+	#send_email{
+		position: absolute;
+		right: 10%;
+		padding: 10px;
+		text-transform: capitalize;
+		background: #2D97CF;
+		border: 0px;
+		color: #fff !important; 
+		cursor: pointer;
+	} 
+	#send_email:hover{
+		background: #2886B8;
+	}
+}

@@ -1,0 +1,47 @@
+*{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif !important;}
+
+/*#invoice{width:99.2% !important; padding:0.2% .4% !important; min-width:700px!important; font-size:10pt!important; margin:auto !important;}*/
+.simple-layout-bound{width:980px !important; margin: auto; background: #fff; overflow: hidden;}
+.simple-layout-middle{width:980px !important; margin: auto; background: #fff; overflow: hidden;}
+
+#part_wrapper{width:48%; padding:0.2% 1%; font-size:10pt;}
+#header{width:100%; text-align:center; float:left; margin-bottom:30px;}
+#header #logo{width:100%; float:left;}
+#header #logo img{height:80px;}
+#part_logo{width:100%; float:left;margin-bottom: 10px;}
+#part_logo img{height:70px;}
+.top{margin-bottom:10px;}
+#header h1{width:100%; float:left; font-size:24px; color:red;}
+.hotel_title{ width:100%; text-align: center; float: left; margin:10px 0px 0px 10px; padding:0px;}
+.hotel_title h1{font-family:Arial, Helvetica, sans-serif !important; font-weight: bold !important; font-style: normal !important; border: none !important; margin-top:0px !important; margin-bottom: 5px;}
+.hotel_title p{ font-family:Arial, Helvetica, sans-serif !important; font-size: 12px !important;}
+#content{width:100%; float:left;}
+#content .note{width:100%; float:left;  //margin-bottom:20px; font-style: normal !important;}
+#content .main_note{width:50%; float:left; }
+#part_main_note{width:100%; float:left;}
+#content .right_note{float:right;}
+#content .right_note tr td{padding-left:40px;}
+span.name_label{font-weight:bold;}
+#content .main_content{width:100%; float:left;}
+#content .main_content table{width:100% !important; text-align:left !important; border-bottom: 1px solid #444 !important;}
+#content .main_content table .right_text{text-align:right !important;}
+#content .main_content table tr th{border-bottom:1px dashed #444 !important;border-top:1px solid #444 !important; color:red !important; padding:3px 3px !important;}
+#content .main_content table tr td{padding:3px 0px !important;}
+#content .main_content table tr{ height:25px !important;}
+#content .main_content table tfoot tr td{color:#00F; }
+#content .main_content table tr.cus_info{font-weight: bold;}
+#content .main_content table tfoot tr:first-child td{ border-top:1px dashed #444;}
+#content .main_content table tbody tr:last-child td{border-bottom: 1px dashed #444;}
+#content .main_content table tbody:last-child tr:last-child td{border-bottom:none;}
+a{text-decoration:none; color:#09F;}
+a:hover{text-decoration:underline; color:#06F;}
+#content .signature{width:100%; float:left; margin-top:40px; height:150px;}
+#content .part_signature{width:100%; float:left; margin-top:40px; height:100px;}
+.date{width:100%; float:left; text-align:right;}
+
+#content .main_sign{width:50%; float:left; text-align:center;}
+.bold_text{font-weight:bold;}
+
+footer{width:100%; float:left; }
+footer .address{width:100%; float:left; text-align:center; font-size:11px; color:#666;}
+footer .address p,footer .address a{text-align:center; font-size:11px; color:#666;}

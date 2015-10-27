@@ -1,0 +1,53 @@
+*{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif !important;}
+
+/*#invoice{width:99.2% !important; padding:0.2% .4% !important; min-width:700px!important; font-size:10pt!important; margin:auto !important;}*/
+body{background: #999;}
+.simple-layout-bound{width:980px !important; margin: auto; background: #fff; overflow: hidden;}
+.simple-layout-middle{width:980px !important; margin: auto; background: #fff; overflow: hidden;}
+
+#part_wrapper{width:48%; padding:0.2% 1%; font-size:10pt;}
+#header{width:100%; text-align:center; float:left; margin-bottom:30px; margin-top: 30px;}
+#header #logo{width:30%; float:left;margin-bottom: 20px;}
+#header .address{width:70%; float: left;text-align: left; color:blue !important;}
+#header .address .invoice-title{font-size: 30px; font-family: "Times New Roman", Times, serif !important; margin: 5px 0px 20px 0px; color: #1A137F;}
+#header .address .invoice-contact-info{font-size: 14px; color: blue; margin-bottom: 5px;}
+.folio_no{float:left; width:100%; border-bottom:1px solid #000; padding:0px 0px 5px 0px; margin-bottom:10px;}
+.folio_no .main_note{font-size: 20px; font-weight: bold; color:#888; font-family: helvetica;}
+#header #logo img{height:100px;}
+#part_logo{width:100%; float:left;margin-bottom: 10px;}
+#part_logo img{height:70px;}
+#header h1{width:100%; float:left; font-size:30px; color:#000;}
+
+#content{width:100%; float:left;}
+#content .note{width:100%; float:left;  //margin-bottom:20px; font-style: normal !important;}
+#content .main_note{width:50%; float:left; }
+#part_main_note{width:100%; float:left;}
+#content .right_note{float:right;}
+#content .right_note tr td{padding-left:40px;}
+#content .right_note tr th{height: 20px; line-height: 20px; font-size: 13px; text-align: left; padding:0px 3px;}
+span.name_label{font-weight:bold;}
+#content .main_content{width:100%; float:left;}
+#content .main_content table{width:100% !important; text-align:left !important; border-bottom: 1px solid #444 !important;}
+#content .main_content table .right_text{text-align:right !important;}
+#content .main_content table tr th{border-bottom:1px dashed #444 !important;border-top:1px solid #444 !important; color:red !important; padding:3px 3px !important;}
+#content .main_content table tr td{padding:3px 0px !important;}
+#content .main_content table tr{ height:25px !important;}
+#content .main_content table tfoot tr td{color:#00F; }
+#content .main_content table tr.cus_info{font-weight: bold;}
+#content .main_content table tfoot tr:first-child td{ border-top:1px dashed #444;}
+#content .main_content table tbody tr:last-child td{border-bottom: 1px dashed #444;}
+#content .main_content table tbody:last-child tr:last-child td{border-bottom:none;}
+a{text-decoration:none; color:#09F;}
+a:hover{text-decoration:underline; color:#06F;}
+#content .signature{width:100%; float:left; margin-top:40px; height:150px;}
+#content .part_signature{width:100%; float:left; margin-top:40px; height:100px;}
+.date{width:100%; float:left; text-align:right;}
+
+#content .main_sign{width:50%; float:left; text-align:center;}
+.bold_text{font-weight:bold;}
+
+footer{width:100%; float:left; }
+footer .address{width:100%; float:left; text-align:center; font-size:11px; color:#666;}
+footer .address p,footer .address a{text-align:center; font-size:11px; color:#666;}
+
+.cus_infomation tr th{text-align: left; height: 20px; line-height: 20px; font-size: 13px;padding:0px 3px;}

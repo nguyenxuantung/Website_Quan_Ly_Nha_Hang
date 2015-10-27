@@ -1,0 +1,115 @@
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px; }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row .col {
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0.75rem; }
+    .row .col.ss1 {
+      width: 10%;
+      margin-left: 0; }
+    .row .col.ss2 {
+      width: 20%;
+      margin-left: 0; }
+    .row .col.ss3 {
+      width: 30%;
+      margin-left: 0; }
+    .row .col.ss4 {
+      width: 40%;
+      margin-left: 0; }
+    .row .col.ss5 {
+      width: 50%;
+      margin-left: 0; }
+    .row .col.ss6 {
+      width: 60%;
+      margin-left: 0; }
+    .row .col.ss7 {
+      width: 70%;
+      margin-left: 0; }
+    .row .col.ss8 {
+      width: 80%;
+      margin-left: 0; }
+    .row .col.ss9 {
+      width: 90%;
+      margin-left: 0; }
+    .row .col.ss10 {
+      width: 100%;
+      margin-left: 0; }
+    
+    
+    
+    @media only screen and (min-width: 601px) {
+      .row .col.mm1 {
+        width: 10%;
+        margin-left: 0; }
+      .row .col.mm2 {
+        width: 20%;
+        margin-left: 0; }
+      .row .col.mm3 {
+        width: 30%;
+        margin-left: 0; }
+      .row .col.mm4 {
+        width: 40%;
+        margin-left: 0; }
+      .row .col.mm5 {
+        width: 50%;
+        margin-left: 0; }
+      .row .col.mm6 {
+        width: 60%;
+        margin-left: 0; }
+      .row .col.mm7 {
+        width: 70%;
+        margin-left: 0; }
+      .row .col.mm8 {
+        width: 80%;
+        margin-left: 0; }
+      .row .col.mm9 {
+        width: 90%;
+        margin-left: 0; }
+      .row .col.mm10 {
+        width: 100%;
+        margin-left: 0; }
+      
+      
+      }
+    @media only screen and (min-width: 993px) {
+      .row .col.ll1 {
+        width: 10%;
+        margin-left: 0; }
+      .row .col.ll2 {
+        width: 20%;
+        margin-left: 0; }
+      .row .col.ll3 {
+        width: 30%;
+        margin-left: 0; }
+      .row .col.ll4 {
+        width: 40%;
+        margin-left: 0; }
+      .row .col.ll5 {
+        width: 50%;
+        margin-left: 0; }
+      .row .col.ll6 {
+        width: 60%;
+        margin-left: 0; }
+      .row .col.ll7 {
+        width: 70%;
+        margin-left: 0; }
+      .row .col.ll8 {
+        width: 80%;
+        margin-left: 0; }
+      .row .col.ll9 {
+        width: 90%;
+        margin-left: 0; }
+      .row .col.ll10 {
+        width: 100%;
+        margin-left: 0; }
+      
+      
+      }
